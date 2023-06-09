@@ -1,0 +1,11 @@
+M Number,First Name,Last Name,First Major,Second Major,Third Major,First Minor,Second Minor,Advisor,Pre-Health,Pre-Engineering,MNU Start Date,Expected Graduation,MNU Email,Date Submitted
+157391,Benjamin,Downey,Mathematics,Computer Science,NULL,Physics,NULL,Dr. Mark Brown,N,N,2017-08-01,2021-05-01,bpdowney@mnu.edu,2020-12-04 06:58:26
+167943,Irvin,Aguirre,Other,NULL,NULL,NULL,NULL,Other,N,N,2017-08-01,2021-05-01,Iaguirre@mnu.edu,2020-12-14 11:12:37
+173280,Andrew,Brown,Computer Science,Mathematics,NULL,Social Studies,NULL,Teresa Hale-Lespier,N,N,2017-08-01,2021-05-01,abrown12@mnu.edu,2020-12-14 13:12:47
+181058,Majesta,Dixon,Other,NULL,NULL,NULL,NULL,Other,N,N,2018-08-01,2022-05-01,mgdixon@mnu.edu,2020-12-14 10:36:51
+182246,Sienna,Schmidt,Biology,Chemistry,NULL,NULL,NULL,Dr. Jill Speicher,Y,N,2018-08-01,2022-05-01,Sjschmidt@mnu.edu,2020-12-13 20:28:31
+183103,Gunnar,Brown,Computer Science,NULL,NULL,Mathematics,NULL,Teresa Hale-Lespier,N,N,2018-08-01,2021-05-01,gjbrown@mnu.edu,2020-12-07 07:55:09
+187800,Ryan,Sattler,Computer Science,NULL,NULL,NULL,NULL,Teresa Hale-Lespier,N,N,2018-08-01,2022-05-01,rasattler@mnu.edu,2020-12-13 20:02:24
+190687,Jonathan,Nelson,Mathematics,NULL,NULL,NULL,NULL,Dr. Mark Brown,N,N,2018-01-01,2021-05-01,jtnelson@mnu.edu,2020-12-14 11:07:30
+191170,Derrick,Spicer,Mathematics,NULL,NULL,NULL,NULL,Dr. Mark Brown,N,N,2018-08-01,2022-05-01,despiser@mnu.edu,2020-12-13 20:20:00
+196288,Luke,Evans,Computer Science,NULL,NULL,Mathematics,NULL,Teresa Hale-Lespier,N,N,2019-01-01,2021-05-01,lcevans2@mnu.edu,2020-12-03 08:58:42

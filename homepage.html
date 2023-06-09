@@ -1,0 +1,40 @@
+<!--
+####################################################################################################################################
+##	NHMS Graduation Information Survey
+##
+##	Software Engineering in Practice class of Fall 2020
+##	Members: Andrew Brown, Benjamin Downey, Gunnar Joe Brown, Luke Evans, Ryan Sattler
+##
+##	homepage.html:
+##	Main homepage that students and department professors will see first. Users select either the "Student Survey" button, which takes
+##	them to the student survey at /nhms_survey/students/student_survey.php, or the "Department View" button, which takes them to the
+##	department's login page at /nhms_survey/department/department_view_login.html.html
+#####################################################################################################################################
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- CSS stylesheet -->
+<link rel="stylesheet" text ="text/css" href="css/masterStyles.css">
+<head>
+	<title>Home - NHMS Survey</title> 
+	<!-- For mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+	<!-- div for the header design at the top of the page --> 
+	<div class="header"></div>
+	<main>
+		<!-- div for centering the label above the student and department buttons --> 
+		<div class="content">
+			<p>Select a page to view</p> 
+			
+			<!-- This button brings students to the survey for them to fill out -->
+			<a href="/students/student_view_survey.php"><button class="styledButton">Student Survey</button></a>
+
+			<!-- This button brings department members to the database/archive view. -->
+			<a href="/department/department_view_login.html"><button class="styledButton">Department View</button></a>
+		</div> 
+	</main>
+	<div class ="footer"></div>
+</body>
+</html>

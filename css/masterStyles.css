@@ -1,0 +1,184 @@
+/*
+####################################################################################################################################
+##	NHMS Graduation Information Survey
+##
+##	Software Engineering in Practice class of Fall 2020
+##	Members: Andrew Brown, Benjamin Downey, Gunnar Joe Brown, Luke Evans, Ryan Sattler
+##
+##	masterStyles.css:
+##	All css styling for the project is held here.
+##	masterStyles.css is linked into every viewable page for uniformity.
+#####################################################################################################################################
+*/
+html {
+	font-family: "Calibri",sans-serif;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: #c4c6c8;
+	overflow: scroll;
+}
+
+label {
+	display: block;
+	
+	color: #1B1D49;
+	font-size: 24px;
+	text-align: center;
+	
+	width: 100%;
+	max-width: 600px;
+}
+
+input, select {
+	display: block;
+	
+	margin-top: 3px;
+	margin-bottom: 15px;
+	
+	width: 100%;
+	max-width: 400px;
+	height: 30px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+	width: 90%;
+}
+
+p {
+	display: block;
+	font-size: 32px;
+	color: #1B1D49;
+}
+
+
+
+/*Style for on-page alerts*/
+.alert {
+	color: red;
+	font-size: 32px;
+	text-align: center;
+	transition-duration: 0.7s;
+}
+
+/*Style for the main content of the page*/
+.content {
+	overflow: auto;
+	position: absolute;
+	top: 22%;
+	width: 99%;
+	height: 66%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*Style for page header and MNU logo*/
+.header {
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 20%;
+	width: 100%;
+	
+	text-align: center; 
+	color: silver;
+	font-size: 120%; 
+	
+	background-image: url("/img/nhmsHeader.png");
+	background-repeat: no-repeat; 
+	background-size: 83%; 
+	background-position: center;
+	background-color: #1B1D49;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	max-width: 900px;
+	justify-content: center;
+}
+
+/*Style for page footer and NHMS logo*/
+.footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	background-image: url("/img/nhmsFooter.png");
+	background-repeat: no-repeat; 
+	background-size: 40%;
+	background-position: center;
+	background-color: white;
+}
+
+/*Style for the page buttons*/ 
+.styledButton {
+	text-decoration: none;
+	font-family: "Calibri",sans-serif;
+	background-color: white;
+	width: 250px;
+	height: 50px;
+	color: #1B1D49; 
+	border: 2px solid #1B1D49;
+	font-size: 24px;
+	margin: 10px;
+}
+
+/*Style for when the mouse hovers over the page buttons*/
+.styledButton:hover {
+	transition-duration: 0.4s;
+	background-color: #1B1D49;
+	color: white;
+}
+
+/*Style for the field validation popups*/
+.popup {
+	bottom: 25%;
+	right: 100%;
+}
+
+/*Style for the field validation popups' text*/
+.popup .popuptext {
+	visibility: hidden;
+	width: 160px;
+	background-color: #FFF933;
+	color: #000000;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+}
+
+/*Style for displaying/hiding the field validation popups*/
+.popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

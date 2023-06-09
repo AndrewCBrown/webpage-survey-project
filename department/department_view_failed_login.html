@@ -1,0 +1,43 @@
+<!--
+####################################################################################################################################
+##	NHMS Graduation Information Survey
+##
+##	Software Engineering in Practice class of Fall 2020
+##	Members: Andrew Brown, Benjamin Downey, Gunnar Joe Brown, Luke Evans, Ryan Sattler
+##
+##	department_view_failed_login.html:
+##	Shows login page for the department view. Requires a username and password. If previous credentials failed, user will be brought
+##	to this page.
+#####################################################################################################################################
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+	<!--CSS stylesheet-->
+	<link rel="stylesheet" text ="text/css" href="/css/masterStyles.css">
+	<head>
+		<title>Login - NHMS Survey</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<main>
+			<div class="header"></div>
+			<div class="content">
+				<p>Department Login</p>
+				<div class="alert">Login failed, please try again</div>
+				<br>
+				<form name="myform"  action="/php/department_handler_login.php" method= "post"> 
+					<label>Username:</label>
+					<input type="text" name="username" required>
+					
+					<label>Password:</label>
+					<input type="password" name="password" required>
+					<br><br>
+					
+					<input class ="styledButton" type="submit" onclick="Submit" value="Login">
+				</form>
+				<br>
+			</div>
+			<div class="footer"></div>
+		</main>
+	</body>
+</html>
